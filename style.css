@@ -7,7 +7,7 @@ body{
 	text-align: center;
 
 }
-
+/*
 ul{
 	background-color: #88aa00;
 padding: 10px 20px;
@@ -32,6 +32,7 @@ li a:hover{
 	:#000000;
 text-decoration:none;
 }
+*/
 
 #wrap{
 	width: 770px;
@@ -39,12 +40,18 @@ text-decoration:none;
 	text-align: left;
 }
 
+h6{
+	padding-top:10px;
+	background-color: #cc9933;
+}
 
 h2{
 	font-size: 185%;
 	border-left: 15pt solid #668800;
 	//border-top: 1px solid #009933; 
 	padding-left:10px; 
+	//padding-top: 15px;
+	
 }
 
 h3{
@@ -59,10 +66,13 @@ h4{
 }
 
 address{
-	font-size: :85%; text-align: right; 
-	border-top: 1px solid #000000;
+	font-size: :85%; 
+     color: #ffffff;
+	text-align: right; 
+	border-top: 6px solid #663300;
 	padding-top:10px;
 	clear: left;
+	background-color: #cc9933;
 }
 
 table{
@@ -86,5 +96,54 @@ td{
 	margin-right: 20px;
 	margin-bottom: 50px;
 }
+
+
+ul{
+	list-style-type: none; 
+	margin: 5px 10px;
+	padding: 0;
+	font-size: 12px;
+	overflow: hidden;
+	background-color: #88aa00;
+
+}
+li:first-child a{
+	border-left: solid 1px #ffffff;
+
+}
+
+li{
+	float: left;
+	margin-right:  0px;
+	width: 100px;
+	text-align: center;
+	border-right: solid 1px #ffffff;
+}
+
+li a{
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	border-bottom: solid 5px transparent;
+}
+
+li a:hover{
+	border-bottom: solid 5px #00ccff;
+
+}
+
+li a:link {
+	color:#ffffff;
+	text-decoration: none;
+	 }
+li a:visited{
+	color:#eeee00;
+	text-decoration: none;
+	 }
+li a:hover{
+	color:#000000;
+	text-decoration: none;
+	border-bottom: solid 5px #cc9900;
+	 }
 
 
