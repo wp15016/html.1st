@@ -33,6 +33,9 @@ li a:hover{
 text-decoration:none;
 }
 */
+#wrapper{
+	display: none;
+}
 
 #wrap{
 	width: 770px;
@@ -41,8 +44,10 @@ text-decoration:none;
 }
 
 h6{
+	font-size: 185%;
 	padding-top:10px;
 	background-color: #cc9933;
+	marquee direction="left"
 }
 
 h2{
