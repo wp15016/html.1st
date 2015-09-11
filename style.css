@@ -1,10 +1,13 @@
 ﻿
 
 body{
+	background-image: url(images/D1.png);
 	color: #535353;
 	font-size: 15px;
 	line-height: 1.5;
 	text-align: center;
+	
+
 
 }
 /*
@@ -43,12 +46,7 @@ text-decoration:none;
 	text-align: left;
 }
 
-h6{
-	font-size: 185%;
-	padding-top:10px;
-	background-color: #cc9933;
-	marquee direction="left"
-}
+
 
 h2{
 	font-size: 185%;
@@ -70,7 +68,9 @@ h4{
 	font-size: 124%;
 }
 
-address{
+address{background-image:url("images/0031.png");
+       background-repeat:repeat-x; 
+       background-size: height="30" width="40";
 	font-size: :85%; 
      color: #ffffff;
 	text-align: right; 
