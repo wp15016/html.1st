@@ -69,13 +69,14 @@ h4{
 }
 
 address{background-image:url("images/0031.png");
-       background-repeat:repeat-x; 
-       background-size:height="30" width="40";
+       background-repeat:repeat-x;
+       background-size: 35px 30px ;
+
 	font-size: :85%; 
      color: #ffffff;
 	text-align: right; 
 	border-top: 6px solid #663300;
-	padding-top:10px;
+	padding-top:30px;
 	clear: left;
 	background-color: #cc9933;
 }
